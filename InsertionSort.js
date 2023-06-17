@@ -1,4 +1,4 @@
-function InsertionSort(array){
+function insertionSort(array){
     for (let i = 1;i<array.length;i++){
         let escolhido = array[i]
         let j = i-1
@@ -10,3 +10,5 @@ function InsertionSort(array){
     }
     return array
 }
+
+export default insertionSort
